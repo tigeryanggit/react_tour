@@ -126,6 +126,7 @@ span {
     width: var(--nav-height);
     padding: 5px;
 
+
 }
 
 .navbar-flex {
@@ -241,7 +242,7 @@ span {
 
 
 .hero {
-    background: url(/img/Background\ Photos_water.png) center/cover no-repeat;
+    background: url(/src/assets/Background.png) center/cover no-repeat;
     color: var(--primary-white);
     text-align: center;
 
