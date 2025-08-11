@@ -19,4 +19,4 @@ function PageLinks({groupName, itemName}) {
   );
 }
 
-export default PageLinks
+export default PageLinks;

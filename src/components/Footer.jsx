@@ -1,5 +1,5 @@
 import React from 'react';
-import SocialLink from "./SocialLink";
+import SocialLinks from "./SocialLinks";
 import PageLinks from "./PageLinks";
 
 function Footer() {
@@ -8,7 +8,7 @@ function Footer() {
             
             <PageLinks groupName="menu-list" itemName="menu-item" />
 
-            <SocialLink />
+            <SocialLinks groupName="menu-list" />
 
         <p>Copyright &copy; <span id="date">{new Date().getFullYear()}</span> All Rights Reserved</p>
     </footer>

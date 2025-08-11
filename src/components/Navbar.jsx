@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import logo from "/src/assets/horse-icon.png";
 import PageLinks from "./PageLinks";
-import SocialLink from "./SocialLink";
+import SocialLinks from "./SocialLinks";
 
 // import logo from "/src/assets/logo.png";
 
@@ -25,7 +25,7 @@ const Navbar = () => {
             </div>
 
             <div className="icon-menu">
-                <SocialLink />
+                <SocialLinks groupName="menu-list" />
 
 
             </div>

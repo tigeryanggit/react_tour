@@ -75,3 +75,26 @@ export const pageLinks = [
 
     }
 ];
+
+
+
+export const socialLinks = [
+    {
+        id: 1,
+        href: "http://www.facebook.com",
+        itemName: "fa-brands fa-facebook",
+
+    },
+    {
+        id: 2,
+        href: "http://www.twitter.com",
+        itemName: "fa-brands fa-twitter",
+
+    },
+    {
+        id: 3,
+        href: "http://www.threads.com",
+        itemName: "fa-brands fa-threads",
+    }
+];
+
