@@ -143,6 +143,7 @@ span {
     a {
         color: var(--primary-4);
         font-size: 1.2rem;
+        text-transform: capitalize;
     }
     
 }
@@ -182,6 +183,7 @@ span {
             padding-bottom: 2rem;
         a   {
                 color: var(--primary-2);
+                text-transform: capitalize;
                 /* opacity: 0.1; */
             }
     }

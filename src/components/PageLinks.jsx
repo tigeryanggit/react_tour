@@ -1,17 +1,22 @@
 import React from 'react';
+import { pageLinks } from '../data';
+import PageLink from "./PageLink";
 
 
-function PageLink({groupName, itemName}) {
+
+function PageLinks({groupName, itemName}) {
   return (
 
                 <ul className={groupName}>
-                    <li className={itemName}><a href="index.html">Home</a></li>
-                    <li className={itemName}><a href="#about">About</a></li>
-                    <li className={itemName}><a href="#services">Services</a></li>
-                    <li className={itemName}><a href="#tours">Tours</a></li>
+
+                   {pageLinks.map((link) => (
+                      <PageLink key={link.id} {...link} itemName={itemName} />                 
+                   
+                  ))
+                  }
 
                 </ul>
   );
 }
 
-export default PageLink
+export default PageLinks

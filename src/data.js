@@ -46,3 +46,32 @@ export const tours = [
         cost: 1200,
     }
 ];
+
+
+
+export const pageLinks = [
+    {
+        id: 1,
+        href: "index.html",
+        text: "home",
+
+    },
+    {
+        id: 2,
+        href: "#about",
+        text: "about",
+
+    },
+    {
+        id: 3,
+        href: "#services",
+        text: "services",
+
+    },
+    {
+        id: 4,
+        href: "#tours",
+        text: "tours",
+
+    }
+];
