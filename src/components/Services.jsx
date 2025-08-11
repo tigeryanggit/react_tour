@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Title from "./Title";
 
 function Services() {
   return (
         <main className="services" id="services">
             
-        <h2>our <span>services</span></h2>
+        <Title title="our" subtitle="services" />
+        {/* <h2>our <span>services</span></h2> */}
 
         <div className="services-content">
 
