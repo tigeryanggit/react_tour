@@ -98,3 +98,26 @@ export const socialLinks = [
     }
 ];
 
+export const service = [
+    {
+        id: 1,
+        itemName: "fa-solid fa-wallet",
+        title: "saving money",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, laboriosam?",
+
+    },
+    {
+        id: 2,
+        itemName: "fa-solid fa-tree",
+        title: "endless hiking",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, laboriosam?",
+
+    },
+    {
+        id: 3,
+        itemName: "fa-solid fa-socks",
+        title: "amazing comfort",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, laboriosam?",
+    }
+];
+

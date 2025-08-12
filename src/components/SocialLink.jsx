@@ -4,7 +4,10 @@ import React from 'react';
 function SocialLink({href, itemName}) {
   return (
 
-                    <li className="icon-item"><a href={href}><i className={itemName}></i></a></li>
+                    <li className="icon-item">
+                      <a href={href}>
+                        <i className={itemName}>
+                          </i></a></li>
 
   );
 }

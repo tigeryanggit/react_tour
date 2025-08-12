@@ -1,33 +1,27 @@
 import React from 'react';
 import Title from "./Title";
+import Service from "./Service";
+import { service } from '../data';
+
 
 function Services() {
   return (
         <main className="services" id="services">
             
         <Title title="our" subtitle="services" />
-        {/* <h2>our <span>services</span></h2> */}
 
         <div className="services-content">
+        {/* not use components */}
+                   {service.map((ser) => (
+                      <div className="service-title" key={ser.id}>
+                          <i className={ser.itemName}></i>
+                          <h3>{ser.title}</h3>
+                          <p>{ser.text}</p>
+                      </div>
+                   
+                  ))
+                }
 
-            <div className="service-title">
-                <i className="fa-solid fa-wallet"></i>
-                <h3>saving money</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, laboriosam?</p>
-            </div>
-
-            <div className="service-title">
-                <i className="fa-solid fa-tree"></i>
-                <h3>endless hiking</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?</p>
-            </div>
-
-            <div className="service-title">
-                <i className="fa-solid fa-socks"></i>
-                <h3>amazing comfort</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum laboriosam</p>
-
-            </div>
         </div>
     </main>
   );

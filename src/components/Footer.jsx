@@ -8,7 +8,7 @@ function Footer() {
             
             <PageLinks groupName="menu-list" itemName="menu-item" />
 
-            <SocialLinks groupName="menu-list" />
+            <SocialLinks />
 
         <p>Copyright &copy; <span id="date">{new Date().getFullYear()}</span> All Rights Reserved</p>
     </footer>

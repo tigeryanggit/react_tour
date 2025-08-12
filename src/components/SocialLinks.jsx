@@ -2,10 +2,10 @@ import React from 'react';
 import { socialLinks } from '../data';
 import SocialLink from "./SocialLink";
 
-function SocialLinks({groupName}) {
+function SocialLinks() {
   return (
 
-                <ul className={groupName}>
+                <ul className="menu-list">
 
                    {socialLinks.map((link) => (
                       <SocialLink key={link.id} {...link} />                 
